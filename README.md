@@ -45,3 +45,9 @@ Model accuracy: ~51% ... barely above random. Which is itself the finding.
 
 ### Key Takeaway
 The real dividing line isn't what you earn — it's what you *do*.
+
+
+
+[▶️ Click here to watch the project demo](https://drive.google.com/file/d/1ue9eOWvRDRdQBwKzXoGLhWbZnusmu0wa/view?usp=drive_link)
+
+This video walks through the full project.
