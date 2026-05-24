@@ -41,7 +41,7 @@ Predicts whether an occupation is Increasing or Decreasing using:
 - Median Salary (USD)
 - Job Openings (2024)
 
-Model accuracy: ~51% — barely above random. Which is itself the finding.
+Model accuracy: ~51% ... barely above random. Which is itself the finding.
 
 ### Key Takeaway
 The real dividing line isn't what you earn — it's what you *do*.
