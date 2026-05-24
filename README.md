@@ -50,4 +50,5 @@ The real dividing line isn't what you earn — it's what you *do*.
 
 [▶️ Click here to watch the project demo](https://drive.google.com/file/d/1ue9eOWvRDRdQBwKzXoGLhWbZnusmu0wa/view?usp=drive_link)
 
-This video walks through the full project.
+[📑 Click here to view the full project report](https://docs.google.com/document/d/1Zjwd0IjQvuTVzGJGQnMLRkl4CG3fAtXIx71l_B2n0HQ/edit?usp=sharing)
+This video walks through the full project and the report covers the full analysis of my data findings.
