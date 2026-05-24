@@ -15,22 +15,33 @@
 4. Run all cells from top to bottom
 
 ## Project Summary
-This project analyzes whether a higher salary protects workers from AI-driven job displacement,
-using logistic regression and K-Means clustering across 30,000 occupations.
-Exploratory Data Analysis (EDA)
-Histograms
-Scatterplots
-Bar charts
-Industry comparisons
-Machine Learning
-K-Means Clustering
+Every LinkedIn post says the same thing: AI is taking over jobs. But what about the jobs 
+it's creating? And does earning more actually protect you?
 
-Used to identify labor market segments based on salary and posting visibility.
+This project uses real data to find out — combining 124K+ LinkedIn job postings, Bureau of 
+Labor Statistics wage data, and an AI job trends dataset covering 30,000 occupations to 
+answer one question: **Is your salary saving you?**
 
-Logistic Regression
+### Exploratory Data Analysis (EDA)
+- **Salary Distribution** *(Histogram)* — How pay is spread across the LinkedIn job market (spoiler: 87.9% earn under $150K)
+- **Employment Type vs. Salary** *(Bar Chart)* — Full-time roles average $95K vs. $59K for part-time
+- **Salary vs. Job Views** *(Scatter Plot)* — Does higher pay attract more applicants?
+- **Automation Risk vs. Salary** *(Scatter Plot)* — The core visualization: are high earners actually safer?
+- **Top 10 Highest Paying Job Titles** *(Horizontal Bar Chart)* — Which roles sit at the top of the salary distribution
+- **Industry Automation Risk** *(Bar Chart)* — Finance and Healthcare both exceed the 50.2% average risk score
+- **2024 vs. 2030 Job Projections** *(Grouped Bar Chart)* — Which industries AI is growing, not just shrinking
 
-Used to classify occupations as increasing or decreasing using:
+### Machine Learning
+**K-Means Clustering (k=3)**
+Groups LinkedIn job postings by salary and posting views to identify natural labor market segments — entry-level, professional, and executive roles.
 
-Automation Risk (%)
-Median Salary
-Job Openings
+**Logistic Regression Classifier**
+Predicts whether an occupation is Increasing or Decreasing using:
+- Automation Risk (%)
+- Median Salary (USD)
+- Job Openings (2024)
+
+Model accuracy: ~51% — barely above random. Which is itself the finding.
+
+### Key Takeaway
+The real dividing line isn't what you earn — it's what you *do*.
