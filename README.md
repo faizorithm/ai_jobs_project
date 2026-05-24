@@ -17,3 +17,20 @@
 ## Project Summary
 This project analyzes whether a higher salary protects workers from AI-driven job displacement,
 using logistic regression and K-Means clustering across 30,000 occupations.
+Exploratory Data Analysis (EDA)
+Histograms
+Scatterplots
+Bar charts
+Industry comparisons
+Machine Learning
+K-Means Clustering
+
+Used to identify labor market segments based on salary and posting visibility.
+
+Logistic Regression
+
+Used to classify occupations as increasing or decreasing using:
+
+Automation Risk (%)
+Median Salary
+Job Openings
